@@ -9,10 +9,14 @@
 
   <ItemGroup>
     <None Remove="johnny %28online-audio-converter.com%29.wav" />
+    <None Remove="johnny.wav" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="johnny (online-audio-converter.com).wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="johnny.wav">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

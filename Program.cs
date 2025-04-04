@@ -1,5 +1,6 @@
 ﻿using System;
-using System.Media;
+using System.Windows.Media;
+using System.Media.SoundPlayer;
 using System.Threading;
 
 class CyberSecurityChatbot
@@ -11,7 +12,7 @@ class CyberSecurityChatbot
         try
         {
             // Ensure the "greeting.wav" file is placed in the same directory or update the path.
-            using (SoundPlayer player = new SoundPlayer("greeting.wav"))
+            using (SoundPlayer player = new SoundPlayer("johnny.wav"))
             {
                 player.PlaySync();  // Play the sound synchronously
             }
