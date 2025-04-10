@@ -1,7 +1,8 @@
 ﻿using System;
-using System.Windows.Media;
-using System.Media.SoundPlayer;
+//using System.Windows.Media;
+//using System.Media.SoundPlayer;
 using System.Threading;
+using System.Media;
 
 class CyberSecurityChatbot
 {
